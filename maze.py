@@ -31,7 +31,7 @@ class Maze:
         visited = set()
         visited.add(0)
         while len(stack) != 0:
-            random_action = random.choices(['n', 'o', 'r'], [40, 20, 40])
+            random_action = random.choices(['n', 'o', 'r'], [30, 10, 60])
             if random_action == 'n':
                 v = stack.pop()
             elif random_action == 'o':
